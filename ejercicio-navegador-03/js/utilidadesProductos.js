@@ -3,7 +3,7 @@ export const calcularPrecioTotal = lista =>
   lista.map(lista => lista.precio).reduce((total, precio) => total + precio);
 export const obtenerNombres = lista => {
   const nombres = [];
-  lista.forEach((element, key) => nombres[key] = element.nombre);
+  lista.forEach((producto, id) => nombres[id] = producto.nombre);
   return nombres;
 }
 export const crearTextoResumen = lista => 
