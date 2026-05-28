@@ -7,4 +7,4 @@ export const obtenerNombres = lista => {
   return nombres;
 }
 export const crearTextoResumen = lista => 
-  res = `Hay ${contarProductos(lista)} productos, que cuestan un total de ${calcularPrecioTotal(lista)}€`;
+  `Hay ${contarProductos(lista)} productos, que cuestan un total de ${calcularPrecioTotal(lista)}€:`;

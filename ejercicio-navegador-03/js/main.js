@@ -6,8 +6,7 @@ resumenProductos.textContent = crearTextoResumen(productos);
 const nombres = obtenerNombres(productos);
 nombres.forEach(nombre => {
   const resultados = document.querySelector('#resultados');
-  const parrafo = document.createElement('p');
-  parrafo.classList.add('nombre');
+  const parrafo = document.createElement('li');
   parrafo.textContent = nombre;
   resultados.appendChild(parrafo);
 });
